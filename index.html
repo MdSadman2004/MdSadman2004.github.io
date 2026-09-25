@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Sadman Bin Masud — Portfolio Hub</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent2: #3fb950;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 48px 24px 32px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #0d1117 0%, #161b22 100%);
+  }
+  header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 24px;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+  .card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--text);
+  }
+  .card p {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .card a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+  }
+  .card a:hover {
+    background: #1f6feb22;
+    border-color: var(--accent);
+  }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: #1f6feb22;
+    color: var(--accent);
+    border: 1px solid #1f6feb44;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .badges { margin-top: 8px; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .hero-actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary {
+    background: #1f6feb;
+    color: white;
+    border: 1px solid #1f6feb;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    background: #23863622;
+    color: var(--accent2);
+    border: 1px solid #23863644;
+    margin-right: 4px;
+    margin-top: 4px;
+  }
+  .divider {
+    border: 0;
+    height: 1px;
+    background: var(--border);
+    margin: 32px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Md. Sadman Bin Masud</h1>
+  <p>ECE student at MIST Dhaka. Building at the intersection of AI, full-stack development, and embedded systems.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="https://github.com/MdSadman20040812" target="_blank">GitHub Profile</a>
+    <a class="btn btn-secondary" href="https://github.com/MdSadman20040812?tab=repositories" target="_blank">View Repositories</a>
+  </div>
+</header>
+
+<div class="container">
+
+  <h2 class="section-title">🚀 Featured Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Laura AI — Nexus Edit Platform</h3>
+      <p>Hardware-accelerated desktop video/audio editor with Tauri 2.0, React, and hybrid edge-cloud RAG pipeline.</p>
+      <a href="https://github.com/MdSadman20040812/Laura_AI" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">Tauri</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">RAG</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>SpellScroll — Webtoon Discovery</h3>
+      <p>AI-curated webtoon discovery platform with LangGraph multi-agent pipeline, Django, FastAPI, and ChromaDB.</p>
+      <a href="https://github.com/MdSadman20040812/SpellScroll" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">Django</span><span class="tag">FastAPI</span><span class="tag">LangGraph</span><span class="tag">ChromaDB</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>AEGIS — Cognitive Tutor</h3>
+      <p>Agentic RAG cognitive tutor deconstructing academic documents into first principles via ABCD framework.</p>
+      <a href="https://github.com/MdSadman20040812/ProjectAegis" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">LangGraph</span><span class="tag">Streamlit</span><span class="tag">Cerebras</span><span class="tag">ChromaDB</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Socratic Engine</h3>
+      <p>Next.js Socratic learning interface with LangGraph agents, Cerebras inference, and real-time chat.</p>
+      <a href="https://github.com/MdSadman20040812/socratic-engine" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">LangGraph</span><span class="tag">Cerebras</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Vanguard — ESG Auditor</h3>
+      <p>LangGraph-powered ESG compliance auditor mapping legacy ERP ledgers to GHG Protocol Scope 1/2/3 emissions.</p>
+      <a href="https://github.com/MdSadman20040812/Vanguard" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">LangGraph</span><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">ESG</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>LexisClear — Contract Reviewer</h3>
+      <p>Automated contract reviewer using LangGraph to audit legal agreements against corporate playbooks.</p>
+      <a href="https://github.com/MdSadman20040812/LexisClear" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">LangGraph</span><span class="tag">Python</span><span class="tag">Legal Tech</span><span class="tag">Automation</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>TerraTrace — Title Resolver</h3>
+      <p>Land title and deed chain resolver with LangGraph workflow, ChromaDB vector memory, and chronological ownership tracking.</p>
+      <a href="https://github.com/MdSadman20040812/TerraTrace" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">LangGraph</span><span class="tag">ChromaDB</span><span class="tag">Real Estate</span><span class="tag">Python</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Glade — Startup Landing Page</h3>
+      <p>Professional startup landing page with animated canvas engine, REST API routing, and glassmorphism UI.</p>
+      <a href="https://github.com/MdSadman20040812/Glade" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Express</span><span class="tag">Canvas</span>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="divider">
+
+  <h2 class="section-title">🧪 Showcase Labs</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Frontend Designs</h3>
+      <p>Interactive visualizations and UI experiments: CNN Filter Atlas, heatmaps, frequency bars, and mechanism flows.</p>
+      <a href="https://github.com/MdSadman20040812/frontend-designs" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Visualization</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Hardware Visualizations</h3>
+      <p>Embedded systems schematics: Diode-OR transfer switch, load-shedding fuse monitor, and circuit diagrams.</p>
+      <a href="https://github.com/MdSadman20040812/hardware-visualizations" target="_blank">View Repository</a>
+      <div class="badges">
+        <span class="tag">SVG</span><span class="tag">Electronics</span><span class="tag">Schematics</span><span class="tag">Power Design</span>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <h2 class="section-title">🛠️ Tech Stack</h2>
+  <div class="badges" style="margin-bottom: 32px;">
+    <span class="badge">Python</span>
+    <span class="badge">TypeScript</span>
+    <span class="badge">React</span>
+    <span class="badge">Next.js</span>
+    <span class="badge">Tailwind</span>
+    <span class="badge">LangGraph</span>
+    <span class="badge">Django</span>
+    <span class="badge">FastAPI</span>
+    <span class="badge">Tauri</span>
+    <span class="badge">Streamlit</span>
+    <span class="badge">ChromaDB</span>
+    <span class="badge">Rust</span>
+    <span class="badge">Cerebras</span>
+    <span class="badge">SVG</span>
+    <span class="badge">Electronics</span>
+  </div>
+
+  <footer>
+    <p>Built with rigor. v2 Deployed with evidence. • 2026</p>
+    <p style="margin-top: 6px;">
+      <a href="https://github.com/MdSadman20040812" style="color: var(--accent); text-decoration: none;">github.com/MdSadman20040812</a>
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>
