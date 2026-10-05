@@ -40,6 +40,8 @@ A source link does not assert an application is deployed or production-ready. So
 
 ## Reuse & attribution
 
-No standalone repository-wide license file is included in this checkout. Public source access is not a blanket license grant; check provenance and permissions before redistribution.
+Original README notice: `MIT © Md Sadman Bin Masud`.
+
+No standalone repository-wide license file is included. This refresh preserves the existing author/license notice without adding license terms or changing the project’s licensing. Check the applicable terms and third-party permissions before redistribution.
 
 Self-hosted Libre Caslon Display and Manrope fonts retain their SIL Open Font License texts in [Caslon-OFL.txt](docs/portfolio/fonts/Caslon-OFL.txt) and [Manrope-OFL.txt](docs/portfolio/fonts/Manrope-OFL.txt), with attribution in [FONT-NOTICES.md](docs/portfolio/FONT-NOTICES.md).
