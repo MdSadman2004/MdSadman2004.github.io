@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" width="1600" height="960"><rect width="1600" height="960" fill="#f3eee4"/>
+<text x="64" y="124" font-family="Libre Caslon Display, Georgia, serif" font-size="76" fill="#2c2925">Portfolio Hub</text>
+<text x="64" y="188" font-family="Manrope, sans-serif" font-size="28" fill="#58534b">A visual directory of public projects, organized into agents, hardware, research, web</text>
+<text x="64" y="226" font-family="Manrope, sans-serif" font-size="28" fill="#58534b">and games.</text>
+<line x1="64" y1="272" x2="1536" y2="272" stroke="#c9beb0" stroke-width="1"/>
+<text x="64" y="316" font-family="Manrope, sans-serif" font-size="22" fill="#964c36">Profile</text>
+<text x="760" y="316" font-family="Manrope, sans-serif" font-size="22" fill="#58534b">Files to start with</text>
+<text x="64" y="392" font-family="Manrope, sans-serif" font-size="32" fill="#2c2925">Public directory</text>
+<text x="64" y="430" font-family="Manrope, sans-serif" font-size="22" fill="#58534b">Static portfolio entry point</text>
+<text x="760" y="385" font-family="Manrope, sans-serif" font-size="20" fill="#58534b">index.html</text>
+<line x1="64" y1="490" x2="1536" y2="490" stroke="#c9beb0" stroke-width="1"/>
+<text x="64" y="550" font-family="Manrope, sans-serif" font-size="32" fill="#2c2925">Local server</text>
+<text x="64" y="588" font-family="Manrope, sans-serif" font-size="22" fill="#58534b">Optional legacy Express routes</text>
+<text x="760" y="543" font-family="Manrope, sans-serif" font-size="20" fill="#58534b">server.js</text>
+<line x1="64" y1="648" x2="1536" y2="648" stroke="#c9beb0" stroke-width="1"/>
+<text x="64" y="708" font-family="Manrope, sans-serif" font-size="32" fill="#2c2925">Legacy page fixtures</text>
+<text x="64" y="746" font-family="Manrope, sans-serif" font-size="22" fill="#58534b">Retained studio-page data helpers</text>
+<text x="760" y="701" font-family="Manrope, sans-serif" font-size="20" fill="#58534b">lib/api-data.js</text>
+<line x1="64" y1="806" x2="1536" y2="806" stroke="#c9beb0" stroke-width="1"/>
+<text x="64" y="898" font-family="Manrope, sans-serif" font-size="23" fill="#58534b">Source guide, not a runtime screenshot or a benchmark.</text>
+<text x="64" y="932" font-family="Manrope, sans-serif" font-size="18" fill="#58534b">github.com/MdSadman2004/MdSadman2004.github.io</text>
+</svg>

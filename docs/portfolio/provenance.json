@@ -1,0 +1,29 @@
+{
+  "kind": "source-guide",
+  "source_head": "f725c79ec3af271b5bb0517527e5eb9e30f10adf",
+  "source_tree": "44cc3cc0fcecefb12b233bc33091300851a7add0",
+  "source_repository": "https://github.com/MdSadman2004/MdSadman2004.github.io",
+  "nodes": [
+    {
+      "label": "Public directory",
+      "path": "index.html",
+      "detail": "Static portfolio entry point"
+    },
+    {
+      "label": "Local server",
+      "path": "server.js",
+      "detail": "Optional legacy Express routes"
+    },
+    {
+      "label": "Legacy page fixtures",
+      "path": "lib/api-data.js",
+      "detail": "Retained studio-page data helpers"
+    }
+  ],
+  "caption": "Source guide drawn from repository files; not a runtime screenshot or fresh benchmark.",
+  "generated_by": "render_guides.py",
+  "image_dimensions": [
+    1600,
+    960
+  ]
+}

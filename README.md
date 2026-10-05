@@ -1,79 +1,45 @@
-# Glade — Professional Landing Page
+# Portfolio Hub
 
-**Animated canvas engine • REST API routing • Glassmorphism UI**
+A visual directory of public projects, organized into agents, hardware, research, web and games.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
-![Express](https://img.shields.io/badge/Express-5-000000?style=for-the-badge&logo=express)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Portfolio Hub — source guide](docs/portfolio/overview.png)
 
----
+*Source guide drawn from the files in this repository; not a runtime screenshot or a fresh benchmark.*
 
-## 🖼️ Pages
+## Project directory
 
-```
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│      /      │  │  /projects  │  │  /approach  │
-│  ════════   │  │  ▓▓▓▓▓▓▓   │  │  ┌─┬─┬─┐    │
-│  ║ canvas ║  │  │ card│card│  │  │ │ │ │    │
-│  ║ anim  ║  │  │ card│card│  │  └─┴─┴─┘    │
-│  ════════   │  └─────────────┘  └─────────────┘
-└─────────────┘
-   Landing          Projects        Methodology
+**[Visit the portfolio](https://mdsadman2004.github.io/)** · **[GitHub profile](https://github.com/MdSadman2004)**
 
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│/how-it-works│  │ /ecosystem  │  │  /connect   │
-│  ① → ② → ③   │  │  ◉ ◉ ◉     │  │  ┌───────┐  │
-│  ↓   ↓   ↓   │  │  ◉ ◉ ◉     │  │  │ form  │  │
-│  step step   │  │  ◉ ◉ ◉     │  │  └───────┘  │
-└─────────────┘  └─────────────┘  └─────────────┘
-  Process          Ecosystem         Contact
-```
+The static `index.html` presents the current public repositories by category, with project images and direct source links. It is a directory, not a hosted version of every application.
 
----
+## Getting started
 
-## ✨ Features
-
-- **Animated canvas engine** — procedural background animation
-- **Glassmorphism design** — frosted-glass UI components
-- **REST API routing** — Express.js backend with clean routes
-- **Responsive** — works on desktop and mobile
-- **Netlify deployment** — CI/CD out of the box
-
----
-
-## 🚀 Quick Start
+The hub itself needs only a browser or static server:
 
 ```bash
-git clone https://github.com/MdSadman20040812/MdSadman20040812.github.io.git
-cd MdSadman20040812.github.io
-npm install
-npm start
+git clone https://github.com/MdSadman2004/MdSadman2004.github.io.git
+cd MdSadman2004.github.io
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open <http://localhost:3000>.
+Open `http://127.0.0.1:8000/`.
 
----
+The repository also retains older studio pages, Express routing and Netlify helpers. Those are separate from the static portfolio directory. To inspect that legacy path, use `npm install` and `npm start`; the server defaults to port 8080. The manifest's `npm test` is a placeholder that exits with failure, not a test suite.
 
-## 📁 Project Structure
+## Source guide
 
-```
-MdSadman20040812.github.io/
-├── index.html                   # Landing page + canvas animation
-├── projects.html                # Project showcase
-├── approach.html                # Methodology
-├── how-it-works.html            # Process explanation
-├── ecosystem.html               # Technology ecosystem
-├── connect.html                 # Contact form
-├── server.js                    # Express backend + REST API
-├── package.json
-├── CNAME                        # Custom domain
-└── netlify.toml                 # Deployment config
-```
+| Component | File | Purpose |
+| :-- | :-- | :-- |
+| Public directory | [index.html](index.html) | Static portfolio entry point |
+| Local server | [server.js](server.js) | Optional legacy Express routes |
+| Legacy page fixtures | [lib/api-data.js](lib/api-data.js) | Retained studio-page data helpers |
 
----
+## Scope & limitations
 
-## 📄 License
+A source link does not assert an application is deployed or production-ready. Source-guide graphics are explanatory drawings, not runtime screenshots. Legacy studio endpoints and example fixtures are not a production CRM. The static directory is redesigned here; project application code, legacy server behavior and deployment workflows remain unchanged.
 
-MIT © Md Sadman Bin Masud
+## Reuse & attribution
+
+No standalone repository-wide license file is included in this checkout. Public source access is not a blanket license grant; check provenance and permissions before redistribution.
+
+Self-hosted Libre Caslon Display and Manrope fonts retain their SIL Open Font License texts in [Caslon-OFL.txt](docs/portfolio/fonts/Caslon-OFL.txt) and [Manrope-OFL.txt](docs/portfolio/fonts/Manrope-OFL.txt), with attribution in [FONT-NOTICES.md](docs/portfolio/FONT-NOTICES.md).
